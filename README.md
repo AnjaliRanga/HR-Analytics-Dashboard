@@ -70,32 +70,6 @@ HR-Analytics-Dashboard/
 └── README.md                  # Project documentation
 ```
 
-##  Getting Started
-
-### Prerequisites
-- Microsoft Power BI Desktop (latest version)
-- Windows 10 or later
-
-### Installation Steps
-
-1. **Clone the repository**
-```bash
-   git clone https://github.com/yourusername/HR-Analytics-Dashboard.git
-```
-
-2. **Navigate to the project folder**
-```bash
-   cd HR-Analytics-Dashboard
-```
-
-3. **Open the Power BI file**
-   - Double-click `HR analytics.pbix`
-   - Or open Power BI Desktop and load the file
-
-4. **Refresh data (if needed)**
-   - Click on "Refresh" in the Home ribbon
-   - Update data source connections if prompted
-
 ##  Data Source
 
 The dashboard uses HR data containing the following fields:
