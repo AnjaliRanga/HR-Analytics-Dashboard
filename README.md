@@ -2,14 +2,6 @@
 
 A comprehensive Power BI dashboard for analyzing employee attrition and workforce metrics to help HR teams make data-driven decisions.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-##  Dashboard Preview
-
-![HR Analytics Dashboard](screenshot.png)
-*Main dashboard showing key HR metrics and attrition analysis*
-
 ##  Project Overview
 
 This interactive Power BI dashboard provides deep insights into employee attrition patterns, helping organizations:
