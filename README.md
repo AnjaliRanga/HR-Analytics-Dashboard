@@ -1,1 +1,150 @@
-# HR-Analytics-Dashboard
+#  HR Analytics Dashboard
+
+A comprehensive Power BI dashboard for analyzing employee attrition and workforce metrics to help HR teams make data-driven decisions.
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+##  Dashboard Preview
+
+![HR Analytics Dashboard](screenshot.png)
+*Main dashboard showing key HR metrics and attrition analysis*
+
+##  Project Overview
+
+This interactive Power BI dashboard provides deep insights into employee attrition patterns, helping organizations:
+- Identify key factors contributing to employee turnover
+- Analyze workforce demographics and distribution
+- Make informed decisions about retention strategies
+- Track HR metrics in real-time
+
+##  Key Performance Indicators (KPIs)
+
+| Metric | Value |
+|--------|-------|
+| **Total Employees** | 1,473 |
+| **Attrition Count** | 237 |
+| **Attrition Rate** | 16.1% |
+| **Average Employee Age** | 37 years |
+| **Average Salary** | $6.5K |
+| **Average Years at Company** | 7.0 years |
+
+##  Dashboard Features
+
+### 1. **Attrition by Education**
+- Visualizes employee turnover across different educational backgrounds
+- Categories: Life Sciences (38%), Medical (27%), Marketing (15%), Technical Degree (14%), Other (5%)
+
+### 2. **Attrition by Age Groups**
+- Bar chart showing attrition distribution across age brackets
+- Age groups: 26-35, 18-25, 36-45, 46-55, 55+
+- Highest attrition in 26-35 age group (116 employees)
+
+### 3. **Attrition by Salary Slab**
+- Horizontal bar chart analyzing turnover by salary ranges
+- Salary bands: Up to 5k, 5k-10k, 10k-15k, 15k+
+- Identifies compensation-related attrition patterns
+
+### 4. **Attrition by Years at Company**
+- Area chart showing attrition trends based on tenure
+- Helps identify critical retention periods
+- Peak attrition visible in early years
+
+### 5. **Attrition by Job Role**
+- Detailed breakdown by specific positions
+- Roles tracked: Laboratory Technician, Sales Executive, Research Scientist, Sales Representative, Human Resources
+
+### 6. **Gender Distribution**
+- Pie chart showing male vs female attrition
+- Male: 140 employees
+- Female: 79 employees
+
+##  Tools & Technologies Used
+
+- **Microsoft Power BI Desktop** - Dashboard creation and visualization
+- **Excel/CSV** - Data source
+- **DAX** - Data Analysis Expressions for calculations
+- **Power Query** - Data transformation and cleaning
+
+##  Project Structure
+```
+HR-Analytics-Dashboard/
+│
+├── HR analytics.pbix          # Main Power BI file
+├── data/                      # Data folder (if applicable)
+│   └── HR_data.csv
+├── screenshots/               # Dashboard images
+│   └── dashboard_preview.png
+└── README.md                  # Project documentation
+```
+
+##  Getting Started
+
+### Prerequisites
+- Microsoft Power BI Desktop (latest version)
+- Windows 10 or later
+
+### Installation Steps
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/yourusername/HR-Analytics-Dashboard.git
+```
+
+2. **Navigate to the project folder**
+```bash
+   cd HR-Analytics-Dashboard
+```
+
+3. **Open the Power BI file**
+   - Double-click `HR analytics.pbix`
+   - Or open Power BI Desktop and load the file
+
+4. **Refresh data (if needed)**
+   - Click on "Refresh" in the Home ribbon
+   - Update data source connections if prompted
+
+##  Data Source
+
+The dashboard uses HR data containing the following fields:
+- Employee ID
+- Age
+- Department
+- Education
+- Job Role
+- Salary
+- Years at Company
+- Attrition Status
+- Gender
+- And more...
+
+*(Note: Sample/anonymized data used for demonstration purposes)*
+
+##  Key Insights
+
+Based on the dashboard analysis:
+
+1. **High Attrition in Entry-Level Roles**: Laboratory Technicians and Sales Executives show highest turnover
+2. **Early Career Attrition**: Significant attrition in employees with 0-5 years at company
+3. **Salary Impact**: Majority of attrition occurs in lower salary brackets (Up to 5k)
+4. **Age Factor**: Younger employees (26-35) are more likely to leave
+5. **Education Correlation**: Life Sciences graduates have highest attrition rate (38%)
+
+##  Dashboard Design Features
+
+- **Interactive Filters**: Filter by Human Resources, Research & Development, and Sales departments
+- **Gender-based Analysis**: Separate views for male and female attrition
+- **Clean Visual Design**: Professional dark theme with color-coded visualizations
+- **Responsive Layout**: Optimized for different screen sizes
+
+##  Future Enhancements
+
+- [ ] Add predictive analytics for attrition risk
+- [ ] Include employee satisfaction scores
+- [ ] Integrate real-time data refresh
+- [ ] Add drill-through pages for detailed employee profiles
+- [ ] Export functionality for reports
+- [ ] Mobile-optimized view
+
+
+
